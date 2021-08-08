@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         val rollButton: Button = findViewById(R.id.button)
         rollButton.setOnClickListener { rollDice() }
 
-        // Do a dice roll when the app starts
+        // Do a dice roll when the app starts!
         rollDice()
     }
 
